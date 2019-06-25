@@ -3,27 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		DA0D30E622B90A210028E4FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0D30E522B90A210028E4FE /* AppDelegate.swift */; };
-		DA0D30E822B90A210028E4FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0D30E722B90A210028E4FE /* ViewController.swift */; };
 		DA0D30EB22B90A210028E4FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0D30E922B90A210028E4FE /* Main.storyboard */; };
 		DA0D30EE22B90A210028E4FE /* Collector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA0D30EC22B90A210028E4FE /* Collector.xcdatamodeld */; };
 		DA0D30F022B90A220028E4FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0D30EF22B90A220028E4FE /* Assets.xcassets */; };
 		DA0D30F322B90A220028E4FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0D30F122B90A220028E4FE /* LaunchScreen.storyboard */; };
+		DA3BDCE122C242B500C58746 /* CollectableDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3BDCE022C242B500C58746 /* CollectableDetailsViewController.swift */; };
+		DA507A4822B96EEB0054EAAF /* CollectableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA507A4722B96EEB0054EAAF /* CollectableTableViewController.swift */; };
+		DA507A4A22B96F570054EAAF /* CreateCollectableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA507A4922B96F570054EAAF /* CreateCollectableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DA0D30E222B90A210028E4FE /* Collector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Collector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA0D30E522B90A210028E4FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA0D30E722B90A210028E4FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA0D30EA22B90A210028E4FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA0D30ED22B90A210028E4FE /* Collector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Collector.xcdatamodel; sourceTree = "<group>"; };
 		DA0D30EF22B90A220028E4FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA0D30F222B90A220028E4FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA0D30F422B90A220028E4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3BDCE022C242B500C58746 /* CollectableDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectableDetailsViewController.swift; sourceTree = "<group>"; };
+		DA507A4722B96EEB0054EAAF /* CollectableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectableTableViewController.swift; sourceTree = "<group>"; };
+		DA507A4922B96F570054EAAF /* CreateCollectableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCollectableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				DA0D30E522B90A210028E4FE /* AppDelegate.swift */,
-				DA0D30E722B90A210028E4FE /* ViewController.swift */,
 				DA0D30E922B90A210028E4FE /* Main.storyboard */,
+				DA3BDCE022C242B500C58746 /* CollectableDetailsViewController.swift */,
+				DA507A4722B96EEB0054EAAF /* CollectableTableViewController.swift */,
+				DA507A4922B96F570054EAAF /* CreateCollectableViewController.swift */,
 				DA0D30EF22B90A220028E4FE /* Assets.xcassets */,
 				DA0D30F122B90A220028E4FE /* LaunchScreen.storyboard */,
 				DA0D30F422B90A220028E4FE /* Info.plist */,
@@ -103,7 +109,7 @@
 				};
 			};
 			buildConfigurationList = DA0D30DD22B90A210028E4FE /* Build configuration list for PBXProject "Collector" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA507A4822B96EEB0054EAAF /* CollectableTableViewController.swift in Sources */,
+				DA507A4A22B96F570054EAAF /* CreateCollectableViewController.swift in Sources */,
 				DA0D30EE22B90A210028E4FE /* Collector.xcdatamodeld in Sources */,
-				DA0D30E822B90A210028E4FE /* ViewController.swift in Sources */,
+				DA3BDCE122C242B500C58746 /* CollectableDetailsViewController.swift in Sources */,
 				DA0D30E622B90A210028E4FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZEYZKW2XY2;
 				INFOPLIST_FILE = Collector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +316,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZEYZKW2XY2;
 				INFOPLIST_FILE = Collector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
